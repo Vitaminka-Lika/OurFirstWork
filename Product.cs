@@ -12,11 +12,11 @@ namespace Product
         int productCount; // Количество товара (штук)
         double productKg; // Количество товара (килограмм)
 
-        public ProductClass(string productName, int productCount, double productKg) // Конструктор класса
+         public ProductClass(string productName) // Конструктор класса
         {
             this.productName = productName;
-            this.productCount = productCount;
-            this.productKg = productKg;
+            productCount = 0;
+            productKg = 0;
         }
                       
         public void setProductName(string newProductName) // Задать новое название товара
